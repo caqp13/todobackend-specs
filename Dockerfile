@@ -21,3 +21,4 @@ RUN npm install -g mocha && \
 
 # Set mocha test runner as entrypoint
 ENTRYPOINT ["mocha"]
+LABEL application=todobackend
